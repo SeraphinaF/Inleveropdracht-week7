@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container{
+    margin-top: 25vh;
+}
+
+button{
+    margin-top: 10vh;
+}
+
