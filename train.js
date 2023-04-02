@@ -33,7 +33,7 @@ function neuralNetwork(trainData, testData) {
     }
     nn.normalizeData()
     
-    nn.train({ epochs: 10 }, () => finishedTraining(nn, testData)) 
+    nn.train({ epochs: 20 }, () => finishedTraining(nn, testData)) 
 }
 
 async function finishedTraining(nn, testData){
